@@ -2,7 +2,7 @@
 
 ```
 .
-├── README.md	
+├── README.md
 ├── dist	代码发布
 ├── docs	文档
 ├── gulpfile.js	Gulp 配置
@@ -16,9 +16,9 @@
 Install：
 
 ```
-git clone https://git.coding.net/ivymobi/Project-Fluke-Web.git
+git clone https://github.com/Franslee/gulp-project-framework.git
 
-cd Project-Fluke-Web
+cd gulp-project-framework
 
 npm install
 
