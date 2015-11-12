@@ -91,7 +91,7 @@ gulp.task('cleanJs', function() {
 gulp.task('js', ['cleanJs'], function() {
     return gulp.src(paths.js)
         .pipe(plumber({errorHandler: notify.onError('Error: <%= error.message %>')}))
-        .pipe(jshint())
+        .pipe(jshint({'expr':true}))
         .pipe(jshint.reporter('default'))
         .pipe(gulp.dest('dist/js'))
         .pipe(uglify())
