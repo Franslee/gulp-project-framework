@@ -1,5 +1,7 @@
-define(function(require, exports, module) {
-    module.exports = {
-        'a': 123
-    };
+define(['jquery'],function($){
+	return {
+		test:function(){
+			alert($().jquery);
+		}
+	};
 });
